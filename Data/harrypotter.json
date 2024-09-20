@@ -1,0 +1,54 @@
+ [
+    {
+        "name": "Harry Potter",
+        "id": 1,
+        "gendar": "male",
+        "dateOfBirth": "31-07-1980",
+        "actor": "Daniel Radcliffe",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/51Xvq5DqH-L.jpg"
+    },
+    {
+        "name": "Hermione Granger",
+        "id": 2,
+        "gendar": "female",
+        "dateOfBirth": "19-09-1980",
+        "actor": "Emma Watson",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/51Xvq5DqH-L.jpg"
+    },
+    {
+        "name": "Ron Weasley",
+        "id": 3,
+        "gendar": "male",
+        "dateOfBirth": "01-03-1980",
+        "actor": "Rupert Grint",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/51Xvq5DqH-L.jpg"
+    },
+    {
+        "name": "Draco Malfoy",
+        "id": 4,
+        "gendar": "male",
+        "dateOfBirth": "01-03-1980",
+        "actor": "Tom Felton",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/51Xvq5DqH-L.jpg"
+    },
+    {
+        "name": "Cedric Diggory",
+        "id": 5,
+        "gendar": "male",
+        "dateOfBirth": "01-03-1980",
+        "actor": "Michael Gambon",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/51Xvq5DqH-L.jpg"
+    },
+    {
+        "name": "Cho Chang",
+        "id": 6,
+        "gendar": "male",
+        "species": "goblin"
+    },
+    {
+        "name": "Severus Snape",
+        "id": 7,
+        "gendar": "male",
+        "species": "human"
+    }
+]

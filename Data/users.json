@@ -1,0 +1,28 @@
+{
+    "users": [
+        {
+            "id":1,
+            "name": "admin",
+            "email": "admin",
+            "role": "admin",
+            "pet":"cat",
+            "petName":"tom"
+        },
+        {
+            "id":2,
+            "name": "user",
+            "email": "user",
+            "role": "user",
+            "pet":"dog",
+            "petName":"jerry"
+        },
+        {
+            "id":3,
+            "name": "user2",
+            "email": "user2",
+            "role": "user",
+            "pet":"cat",
+            "petName":"kitty"
+        }
+    ]
+}

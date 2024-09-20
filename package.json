@@ -1,0 +1,35 @@
+{
+  "name": "graphql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "commonjs",
+  "imports": {
+    "#/*": "./*",
+    "#resolver/*": "./Resolver/*",
+    "#schema/*": "./Schema/*",
+    "#data/*": "./Data/*",
+    "#enum/*": "./Enum/*",
+    "#types/*": "./Types/*",
+    "#inputs/*": "./Inputs/*",
+    "#query/*": "./Query/*",
+    "#mutation/*": "./Mutation/*",
+    "#interface/*": "./Interface/*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "ser": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@apollo/server": "^4.11.0",
+    "express": "^4.21.0",
+    "graphql": "^16.9.0",
+    "graphql-http": "^1.22.1",
+    "lodash": "^4.17.21",
+    "ruru": "^2.0.0-beta.13"
+  }
+}

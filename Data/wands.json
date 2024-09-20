@@ -1,0 +1,38 @@
+[
+    {
+        "wood":"honey",
+        "core":"phoenix feather",
+        "length":11,
+        "character_id":1
+    },
+    {
+        "wood":"wood",
+        "core":"dark feather",
+        "length":11,
+        "character_id":2
+    },
+    {
+        "wood":"fire",
+        "core":"quicksilver feather",
+        "length":11,
+        "character_id":3
+    },
+    {
+        "wood":"bronze",
+        "core":"farty feather",
+        "length":11,
+        "character_id":4
+    },
+    {
+        "wood":"gold",
+        "core":"gold feather",
+        "length":11,
+        "character_id":5
+    },
+    {
+        "wood":"silver",
+        "core":"silver feather",
+        "length":11,
+        "character_id":6
+    }
+]

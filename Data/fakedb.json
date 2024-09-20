@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "admin",
+    "rent": "20$",
+    "status": "available"
+  },
+  {
+    "id": 2,
+    "name": "user",
+    "rent": "10$",
+    "status": "unavailable"
+  },
+  {
+    "id": 3,
+    "name": "user2",
+    "rent": "15$",
+    "status": "available"
+  }
+]
