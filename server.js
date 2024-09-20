@@ -10,7 +10,6 @@ const {schema} = require('#schema/index.js')
 
 const {root} = require('#resolver/index.js')
 
-
 // graphql({schema,source:'{name,age,email}',rootValue:root})
 //     .then(result => console.log(result))
 //     .catch(error => console.log(error));
