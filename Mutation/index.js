@@ -1,8 +1,17 @@
 const spaceMutation = require("#mutation/SpaceMutation.js")
+const characterMutation = require("#mutation/CharacterMutation.js")
+const humanMutation = require("#mutation/HumanMutation.js")
 
-const mutation = `type Mutation {
+const mainMutation = `type Mutation {
     addMsg(msg:String):String
     ${spaceMutation}
 }`
 
-module.exports = mutation
+const appoloMutation = `type Mutation {
+    ${characterMutation}
+    ${humanMutation}
+}`
+module.exports = {
+    mainMutation,
+    appoloMutation
+}

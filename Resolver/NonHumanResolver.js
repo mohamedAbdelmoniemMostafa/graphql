@@ -1,6 +1,5 @@
-const charactersData = require('#data/harrypotter.json')
 
-const nonHumans = () => charactersData.filter((character) => !!character.species)
+const nonHumans = (_,__,context) => context.charactersData.filter((character) => !!character.species)
 
 module.exports = {
     nonHumans

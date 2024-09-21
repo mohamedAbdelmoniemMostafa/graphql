@@ -30,6 +30,9 @@
     "graphql": "^16.9.0",
     "graphql-http": "^1.22.1",
     "lodash": "^4.17.21",
-    "ruru": "^2.0.0-beta.13"
+    "ruru": "^2.0.0-beta.13",
+    "sequelize": "^6.37.3",
+    "sequelize-cli": "^6.6.2",
+    "sqlite3": "^5.1.7"
   }
 }

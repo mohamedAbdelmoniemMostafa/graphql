@@ -2,6 +2,9 @@
 const { graphql, buildSchema } = require("graphql")
 
 const SpaceInput = require("#inputs/SpaceInput.js")
+const HumanInput = require("#inputs/HumanInput.js")
+const WandInput = require("#inputs/WandInput.js")
+const CharacterInput = require("#inputs/CharacterInput.js")
 
 const StatusEnum = require("#enum/StatusEnum.js")
 const GendarEnum = require('#enum/GendarEnum.js')
@@ -15,7 +18,7 @@ const NonHumanType = require('#types/NonHumanType.js')
 const WandType = require('#types/WandType.js')
 
 const {mainQuery,appoloQuery} = require("#query/index.js")
-const mutation = require("#mutation/index.js")
+const {mainMutation,appoloMutation} = require("#mutation/index.js")
 
 
 const schema = buildSchema(`
@@ -29,11 +32,15 @@ const schema = buildSchema(`
     # query
     ${mainQuery}
     # mutation
-    ${mutation}
+    ${mainMutation}
 `);
 
 
 const typeDefs = `#graphql
+    # inputs
+    ${CharacterInput}
+    ${HumanInput}
+    ${WandInput}
     # enums
     ${GendarEnum}
     # interfaces
@@ -44,6 +51,8 @@ const typeDefs = `#graphql
     ${NonHumanType}
     # query
     ${appoloQuery}
+    # mutation
+    ${appoloMutation}
 `;
 
 module.exports = {
